@@ -368,6 +368,8 @@ footer {
 
   .box-footer p{
     color: yellow;
+    text-align: center;
+    font-size: 12px;
   }
 
 }
