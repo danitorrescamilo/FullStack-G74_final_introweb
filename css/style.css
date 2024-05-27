@@ -7,54 +7,54 @@
   font-family: "Montserrat";
 }
 
-.equipo {
+.especialidad {
   border-radius: 8px;
   overflow: hidden;
 }
-.equipo img {
+.especialidad img {
   width: 100%;
 }
 
-.team-1 {
+.especialidad-1 {
   border: 5px solid blue;
-  background: url(../images/image-1.jpeg);
+  background: url(../images/especialidad-1.jpg);
   width: 200px;
   height: 200px;
   margin: auto;
   border-radius: 100px;
 }
 
-.team-2 {
+.especialidad-2 {
   border: 5px solid green;
-  background: url(../images/team-2.jpg);
+  background: url(../images/especialidad-2.jpg);
   width: 200px;
   height: 200px;
   margin: auto;
   border-radius: 50px;
 }
 
-.team-3 {
+.especialidad-3 {
   border: 5px solid red;
-  background: url(../images/team-3.jpg);
+  background: url(../images/especialidad-3.jpg);
   width: 200px;
   height: 200px;
   margin: auto;
   border-radius: 100px;
 }
 
-.team-4 {
+.especialidad-4 {
   border: 5px solid yellow;
-  background: url(../images/team-4.jpg);
+  background: url(../images/especialidad-4.jpg);
   width: 200px;
   height: 200px;
   margin: auto;
   border-radius: 50px;
 }
 
-.equipoContent {
+.especialidadContent {
   padding: 15px;
 }
-.equipoContent h3 {
+.especialidadContent h3 {
   color: rgb(13, 110, 253);
 }
 
