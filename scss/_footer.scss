@@ -1,0 +1,40 @@
+/* FOOTER */
+
+footer {
+  width: 100%;
+  background-color: $color-principal;
+}
+
+.footer-center {
+  height: 100px;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.footer-box {
+  width: 30%;
+  margin: auto;
+  height: 60px;
+  float: left;
+  box-sizing: border-box;
+
+  p a {
+    text-align: left;
+    color: #fff;
+    font-size: 33px;
+    text-decoration: none;
+  }
+}
+
+.social a {
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 6px;
+  margin: 5px;
+
+  &:hover {
+    color: $color-secundario;
+  }
+}

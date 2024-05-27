@@ -54,6 +54,7 @@
 .especialidadContent {
   padding: 15px;
 }
+
 .especialidadContent h3 {
   color: rgb(13, 110, 253);
 }
@@ -167,6 +168,7 @@ p {
   margin: auto;
   color: #999;
 }
+
 .formulario h2 {
   text-transform: uppercase;
   padding-left: 20px;
@@ -197,10 +199,12 @@ p {
   list-style: none;
   text-align: center;
 }
+
 .datos-contacto li {
   color: #444;
   padding-bottom: 5px;
 }
+
 .datos-contacto li i {
   color: #85c34a;
   font-size: 60px;
@@ -222,6 +226,7 @@ p {
   border-radius: 8px;
   overflow: hidden;
 }
+
 .galeria img {
   width: 100%;
   height: auto;
@@ -279,6 +284,7 @@ a:active {
   background-color: rgb(246, 245, 244);
   padding: 15px;
 }
+
 .cardsContent h3 {
   color: rgb(13, 110, 253);
 }
@@ -287,38 +293,82 @@ a:active {
 footer {
   width: 100%;
   background-color: rgb(13, 110, 253);
+  align-items: center;
+  padding: 10px;
 }
 
+.social a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 5px;
+
+}
+
+/* Flex */
 .footer-center {
-  height: 100px;
   margin: auto;
-  padding: 20px 0px;
+  /* background-color: aqua; */
 }
 
-.footer-box {
-  width: 30%;
-  margin: auto;
-  height: 60px;
-  float: left;
-  box-sizing: border-box;
-}
-.footer-box p a {
-  text-align: left;
-  color: #fff;
-  font-size: 33px;
-  text-decoration: none;
+/* Flex */
+.box-footer{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.social a {
-  float: right;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 6px;
-  margin: 5px;
-}
-.social a:hover {
-  color: rgb(158, 210, 198);
+.box-footer p{
+  color: white;
+  font-size: 1rem;
+  padding-top: 15px;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+/* Media Querie Tablet */
+
+@media screen and (max-width: 768px)
+
+{
+  .box-footer{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  footer {
+    width: 100%;
+    background-color: red;
+    align-items: center;
+  }
+
+  .box-footer p{
+    color: yellow;
+  }
+
+}
+
+/* Media Querie Mobil */
+
+@media screen and (max-width: 480px)
+
+{
+  .box-footer{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  footer {
+    width: 100%;
+    background-color: red;
+    align-items: center;
+  }
+
+  .box-footer p{
+    color: yellow;
+  }
+
+}
+  
